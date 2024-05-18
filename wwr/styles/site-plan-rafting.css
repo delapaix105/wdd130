@@ -1,57 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-color: #396E94;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A43312;
+    --accent2-color: #381D2A;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    --nav-bg-color: #396E94;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #E7C24F;
+    --nav-hover-bg-color: #381D2A;
+}
+
 body {
-    font-family: var(--paragaraph-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: auto;
 }
-root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX:
 
-    --heading-font: '______', serif;
-    --paragaraph-font: '_______',serif;
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
-    --nav-background-clor: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-clor: #XXXXXX;
+header h1 {
+    font-family: var(--heading-font);
 }
-body {
-    font-family: var(--paragaraph-font);
-    max-width: 960px;
-    padding: 20px;
+
+header div {
+    margin-top: 5px;
+    font-size: 0.9em;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h2, h3, h4 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-header {
-    padding: 20px;
-    background-color: var(-- --accent1-color);
-}
-
 p {
-    padding: 25px;
+    padding: 10px 0;
 }
-nav {
 
-    background-color: var (--nav-background-color); 
-    font-size: 1.2rem; 
-    display: flex;
+nav {
+    background-color: var(--nav-bg-color);
+    padding: 10px;
+    text-align: center;
 }
+
 nav a {
-    display: block;
     color: var(--nav-link-color);
+    margin: 0 10px;
     text-decoration: none;
-    padding: 1rem;
+    font-weight: bold;
 }
-nav a:link, nav a:visited {
-     color: var(--nav-link-color);
-}
+
 nav a:hover {
-    color: var (--nav-hover-link-color);
-    background-color: var (--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-bg-color);
+    padding: 5px 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 20px;
 }
