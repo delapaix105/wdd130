@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #004d40;
+    --primary-color: #d1dcda;
     --secondary-color: #00796b;
     --accent-color: #00bfa5;
-    --background-color: #e0f2f1;
-    --font-color: #ffffff;
+    --background-color: #010a0905;
+    --font-color: #050505;
     --font-family: 'Roboto', sans-serif;
 }
 
@@ -209,3 +209,116 @@ footer {
     height: 30px;
     margin-left: 10px;
 }
+/* code for contact us *?
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  
+  
+  main {
+    padding: 2em;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  /* Contact info styles */
+  .contact-info {
+    display: flex; /* Arrange address and map side-by-side */
+    flex-direction: column; /* Stack address on top of map */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .contact-info p {
+    margin-bottom: 1em;
+  }
+  
+  .contact-info iframe {
+    border: none; /* Remove default border from Google Map */
+    width: 100%; /* Adjust width as needed */
+    height: 300px; /* Set a height for the map */
+  }
+  
+  /* Employee profiles styles */
+  .employee-profiles {
+    display: flex; /* Arrange profiles horizontally */
+    flex-wrap: wrap; /* Allow profiles to wrap to multiple lines if needed */
+    justify-content: center; /* Distribute profiles evenly */
+    margin-bottom: 2em;
+  }
+  
+  .employee-profiles li {
+    width: 30%; /* Set a width for each profile */
+    text-align: center; /* Center content within profiles */
+    margin-bottom: 1em;
+  }
+  
+  .employee-profiles img {
+    width: 100%; /* Adjust image width as needed */
+    border-radius: 50%; /* Make profile images circular */
+  }
+  
+  /* Contact form styles */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto; /* Center form horizontally */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #09307f;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow resizing textarea height */
+  }
+  
+  .contact-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input[type="radio"] {
+    margin-right: 5px; /* Add spacing between radio button and label */
+  }
+  
+  .contact-form button {
+    background-color: #3d0690; /* Green color */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45A049; /* Green with a slight hover effect */
+  }
+  
