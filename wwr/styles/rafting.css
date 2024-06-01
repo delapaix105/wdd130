@@ -105,3 +105,107 @@ footer img {
     height: 30px;
     vertical-align: middle;
 }
+/* added for about */
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* History section styling */
+#history {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+#history h2 {
+    margin-bottom: 10px;
+}
+
+/* Adventures section styling */
+#adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#adventures figure {
+    flex: 1 1 calc(20% - 10px);
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#adventures img {
+    width: 100%;
+    height: auto;
+}
+
+#adventures figcaption {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+/* Footer styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+#social-icons {
+    display: flex;
+}
+
+#social-icons img {
+    height: 30px;
+    margin-left: 10px;
+}
