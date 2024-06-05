@@ -321,4 +321,65 @@ body {
   .contact-form button:hover {
     background-color: #45A049; 
   }
-  
+  /* Existing styles */
+
+/* Trips page styles */
+.hero {
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #FF9900;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #CC7A00;
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.trip-card {
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.trip-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.trip-table {
+  padding: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
