@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Basic HTML and CSS Quiz">
+    <meta name="author" content="Fidele De la paix UKWITEGETSE">
     <title>Basic HTML and CSS Quiz</title>
     <link rel="stylesheet" href="styles/quiz.css">
 </head>
@@ -12,18 +13,18 @@
     <form>
         <div class="question">
             <span class="question-number">1.</span>
-            <label for="question1">What does the acronym CSS stand for?</label>
-            <input type="text" id="question1" placeholder="Enter your answer">
+            <label for="q1">What does the acronym CSS stand for?</label>
+            <input type="text" id="q1" name="q1" placeholder="Enter your answer">
         </div>
         <div class="question">
             <span class="question-number">2.</span>
-            <label for="question2">How are id and class attributes selected in CSS?</label>
-            <input type="text" id="question2" placeholder="Enter your answer">
+            <label for="q2">How are id and class attributes selected in CSS?</label>
+            <input type="text" id="q2" name="q2" placeholder="Enter your answer">
         </div>
         <div class="question">
             <span class="question-number">3.</span>
-            <label for="question3">Which of the following is a valid CSS comment?</label>
-            <select id="question3">
+            <label for="q3">Which of the following is a valid CSS comment?</label>
+            <select id="q3" name="q3">
                 <option value="">Choose One...</option>
                 <option value="1">/* This is a comment */</option>
                 <option value="2">// This is a comment</option>
@@ -31,8 +32,13 @@
         </div>
         <div class="question">
             <span class="question-number">4.</span>
-            <label for="question4">What is the bottom margin given this declaration?</label>
-            <pre id="question4">margin: 10px 5px 15px;</pre>
+            <label for="q4">What is the bottom margin given this declaration?</label>
+            <textarea id="q4" name="q4" placeholder="Enter your answer"></textarea>
+        </div>
+        <div class="question">
+            <span class="question-number">5.</span>
+            <label for="q5">How many pixels is the bottom margin?</label>
+            <input type="number" id="q5" name="q5" placeholder="Enter your answer">
         </div>
         <button type="submit">Submit Quiz</button>
     </form>
